@@ -1,23 +1,22 @@
 {
-  "name": "cordova-android-crosswalk",
+  "name": "crosswalk-cordova-android",
   "description": "Automagically migrates your Cordova Android projects so they use Crosswalks Chromium webview.",
-  "version": "0.1.1",
-  "homepage": "https://github.com/tylerbuchea/cordova-android-crosswalk",
+  "version": "1.0.0",
+  "homepage": "https://github.com/confused-pv/crosswalk-cordova-android",
   "author": {
-    "name": "Tyler Buchea",
-    "url": "http://tylerbuchea.com"
+    "name": "Prakhar Verma"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tylerbuchea/cordova-android-crosswalk.git"
+    "url": "git://github.com/confused-pv/crosswalk-cordova-android.git"
   },
   "bugs": {
-    "url": "https://github.com/tylerbuchea/cordova-android-crosswalk/issues"
+    "url": "https://github.com/confused-pv/crosswalk-cordova-android/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/tylerbuchea/cordova-android-crosswalk/blob/master/LICENSE"
+      "url": "https://github.com/confused-pv/crosswalk-cordova-android/blob/master/LICENSE"
     }
   ],
   "keywords": [
@@ -30,7 +29,7 @@
   ],
   "preferGlobal": true,
   "bin": {
-    "cordova-android-crosswalk": "./bin/cordova-android-crosswalk"
+    "crosswalk-cordova-android": "./bin/crosswalk-cordova-android"
   },
   "main": "index.js",
   "engines": {
