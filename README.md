@@ -2,6 +2,7 @@
 
 This command line tool is an easy way to migrate your existing Cordova based (including Ionic) projects over to use Crosswalks Chromium webveiw. The performance benefit is huge, you get access to all the latest web APIs, and the only major draw back is increased apk size.
 
+Note : Supports only ARM architecture.
 ### Version
 0.1.1
 
@@ -23,14 +24,18 @@ $ cordova-android-crosswalk
 
 This command defaults to Crosswalks 'stable' Cordova Android release and automatically finds your Android SDK target using the `android list` command and some regex magic. Crosswalk also offers 'beta' and 'canary' releases if you'd like to change that or the Android SDK target use these flags:
 
+URL VERSIONS :
+
+stable : supports cordova 3.5, crosswalk 8.37.189.14
+beta : supports cordova 3.6.3, crosswalk 10.39.235.6
 ```sh
-$ cordova-android-crosswalk --release canary --target android-18
+$ cordova-android-crosswalk --release beta --target android-19
 ```
 
 or
 
 ```sh
-$ cordova-android-crosswalk -r canary -t android-18
+$ cordova-android-crosswalk -r canary -t android-19
 ```
 
 ### Todo's

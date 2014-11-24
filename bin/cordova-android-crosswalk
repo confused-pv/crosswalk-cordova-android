@@ -22,8 +22,8 @@ var Runtime = {
 	 */
 	ReleaseChannels: {
 		stable: 'https://download.01.org/crosswalk/releases/crosswalk/android/stable/8.37.189.12/arm/crosswalk-cordova-8.37.189.12-arm.zip',
-		beta: 'https://download.01.org/crosswalk/releases/crosswalk/android/beta/9.38.208.8/arm/crosswalk-cordova-9.38.208.8-arm.zip',
-		canary: 'https://download.01.org/crosswalk/releases/crosswalk/android/canary/10.39.235.0/arm/crosswalk-cordova-10.39.235.0-arm.zip'
+		beta: 'https://download.01.org/crosswalk/releases/crosswalk/android/beta/10.39.235.1/arm/crosswalk-cordova-10.39.235.1-arm.zip',
+		canary: 'https://download.01.org/crosswalk/releases/crosswalk/android/canary/11.39.251.0/arm/crosswalk-cordova-11.39.251.0-arm.zip'
 	},
 
 	/**
@@ -116,7 +116,7 @@ var Runtime = {
 				}
 
 				// Replace CordovaLib with Crosswalks version
-				fs.copy(__dirname + '/downloads/crosswalk-stable/framework', './platforms/android/CordovaLib',
+				fs.copy(__dirname + '/downloads/crosswalk-'+Runtime.Args.release+'/framework', './platforms/android/CordovaLib',
 					function(err) {
 						if(err) {
 							throw(err);
