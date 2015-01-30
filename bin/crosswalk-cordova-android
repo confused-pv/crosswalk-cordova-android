@@ -21,9 +21,9 @@ var Runtime = {
 	 * We must pressure crosswalk-project.org to offer a 'latest-release' url for each release channel
 	 */
 	ReleaseChannels: {
-		stable: 'https://download.01.org/crosswalk/releases/crosswalk/android/stable/10.39.235.15/crosswalk-10.39.235.15.zip',
-		beta: 'https://download.01.org/crosswalk/releases/crosswalk/android/beta/11.40.277.1/crosswalk-11.40.277.1.zip',
-		canary: 'https://download.01.org/crosswalk/releases/crosswalk/android/canary/12.40.278.0/crosswalk-12.40.278.0.zip'
+		stable: 'https://download.01.org/crosswalk/releases/crosswalk/android/stable/10.39.235.15/arm/crosswalk-cordova-10.39.235.15-arm.zip',
+		beta: 'https://download.01.org/crosswalk/releases/crosswalk/android/beta/11.40.277.1/arm/crosswalk-cordova-11.40.277.1-arm.zip',
+		canary: 'https://download.01.org/crosswalk/releases/crosswalk/android/canary/12.40.278.0/arm/crosswalk-cordova-12.40.278.0-arm.zip'
 	},
 
 	/**
